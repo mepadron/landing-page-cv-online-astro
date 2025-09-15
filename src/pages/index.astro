@@ -1,16 +1,63 @@
 ---
-
+import Layout from '../layouts/Layout.astro';
+// Migrated React components
+import Preloader from '../components/landing/Preloader.tsx';
+import Header from '../components/landing/Header.tsx';
+import Hero from '../components/landing/Hero.tsx';
+// Placeholder Astro components
+import Benefits from '../components/landing/Benefits.tsx';
+import HowItWorks from '../components/landing/HowItWorks.tsx';
+import Features from '../components/landing/Features.tsx';
+import Templates from '../components/landing/Templates.tsx';
+import Pricing from '../components/landing/Pricing.tsx';
+import Testimonials from '../components/landing/Testimonials.tsx';
+import Contact from '../components/landing/Contact.tsx';
+import Cta from '../components/landing/Cta.tsx';
+import Footer from '../components/landing/Footer.tsx';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout
+  title="Perfil Pro"
+  description="Crea tu CV Online: Destaca, Conecta, Triunfa."
+>
+  <Preloader client:visible />
+  <div id="main-content" class="flex min-h-dvh flex-col bg-background animate-fade-in">
+    <Header client:load />
+    <main class="flex-1">
+      <Hero />
+      <Benefits />
+      <HowItWorks />
+      <Templates client:visible />
+      <Features />
+      <Pricing />
+      <Testimonials />
+      <Contact />
+      <Cta />
+    </main>
+    <Footer />
+  </div>
+</Layout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const preloader = document.querySelector('#preloader-container'); // Assuming Preloader component has this ID
+    const mainContent = document.getElementById('main-content');
+
+    if (preloader && mainContent) {
+      setTimeout(() => {
+        preloader.style.opacity = '0';
+        preloader.addEventListener('transitionend', () => {
+          preloader.style.display = 'none';
+        });
+        mainContent.style.opacity = '1';
+      }, 1500);
+    }
+  });
+</script>
+
+<style>
+  #main-content {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+</style>

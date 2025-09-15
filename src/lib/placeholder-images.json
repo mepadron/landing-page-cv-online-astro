@@ -1,0 +1,82 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-cv",
+      "description": "Modern CV preview for hero section",
+      "imageUrl": "https://picsum.photos/seed/hero-cv/600/800",
+      "imageHint": "cv resume"
+    },
+    {
+      "id": "template-1",
+      "description": "CV template 1 preview",
+      "imageUrl": "https://picsum.photos/seed/template-1/400/560",
+      "imageHint": "template resume"
+    },
+    {
+      "id": "template-2",
+      "description": "CV template 2 preview",
+      "imageUrl": "https://picsum.photos/seed/template-2/400/560",
+      "imageHint": "template resume"
+    },
+    {
+      "id": "template-3",
+      "description": "CV template 3 preview",
+      "imageUrl": "https://picsum.photos/seed/template-3/400/560",
+      "imageHint": "template resume"
+    },
+    {
+      "id": "template-full-1",
+      "description": "Full CV template 1 preview",
+      "imageUrl": "https://picsum.photos/seed/template-full-1/600/840",
+      "imageHint": "cv professional"
+    },
+    {
+      "id": "template-full-2",
+      "description": "Full CV template 2 preview",
+      "imageUrl": "https://picsum.photos/seed/template-full-2/600/840",
+      "imageHint": "cv creative"
+    },
+    {
+      "id": "template-full-3",
+      "description": "Full CV template 3 preview",
+      "imageUrl": "https://picsum.photos/seed/template-full-3/600/840",
+      "imageHint": "cv modern"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Testimonial user avatar 1",
+      "imageUrl": "https://picsum.photos/seed/avatar-1/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Testimonial user avatar 2",
+      "imageUrl": "https://picsum.photos/seed/avatar-2/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-3",
+      "description": "Testimonial user avatar 3",
+      "imageUrl": "https://picsum.photos/seed/avatar-3/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "feature-ats",
+      "description": "Visual for ATS optimization feature",
+      "imageUrl": "https://picsum.photos/seed/feature-ats/500/500",
+      "imageHint": "data graph"
+    },
+    {
+      "id": "feature-tips",
+      "description": "Visual for AI-powered tips feature",
+      "imageUrl": "https://picsum.photos/seed/feature-tips/500/500",
+      "imageHint": "lightbulb idea"
+    },
+    {
+      "id": "feature-hosting",
+      "description": "Visual for online hosting feature",
+      "imageUrl": "https://picsum.photos/seed/feature-hosting/500/500",
+      "imageHint": "cloud server"
+    }
+  ]
+}
