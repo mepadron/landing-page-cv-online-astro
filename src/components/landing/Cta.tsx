@@ -1,7 +1,9 @@
+import type { ClassAttributes, AnchorHTMLAttributes } from "react";
+import type { JSX } from "react/jsx-runtime";
 import { Button } from "../ui/Button";
 
 // --- Placeholder for Next.js Link component ---
-const Link = (props) => <a {...props}></a>;
+const Link = (props: JSX.IntrinsicAttributes & ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement>) => <a {...props}></a>;
 // --------------------------------------------
 
 export default function Cta() {

@@ -40,10 +40,10 @@ import Footer from '../components/landing/Footer.tsx';
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const preloader = document.querySelector('#preloader-container'); // Assuming Preloader component has this ID
+    const preloader = document.querySelector('#preloader-container');
     const mainContent = document.getElementById('main-content');
 
-    if (preloader && mainContent) {
+    if (preloader instanceof HTMLElement && mainContent instanceof HTMLElement) {
       setTimeout(() => {
         preloader.style.opacity = '0';
         preloader.addEventListener('transitionend', () => {

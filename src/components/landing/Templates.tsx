@@ -7,9 +7,11 @@ import {
 } from "../ui/carousel";
 import { Card } from "../ui/card";
 import { PlaceHolderImages } from "../../lib/placeholder-images";
+import type { ClassAttributes, ImgHTMLAttributes } from "react";
+import type { JSX } from "react/jsx-runtime";
 
 // --- Placeholder for Next.js Image component ---
-const Image = (props) => <img {...props} />;
+const Image = (props: JSX.IntrinsicAttributes & ClassAttributes<HTMLImageElement> & ImgHTMLAttributes<HTMLImageElement>) => <img {...props} />;
 // ---------------------------------------------
 
 export default function Templates() {

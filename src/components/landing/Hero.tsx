@@ -1,10 +1,12 @@
 import { Button } from "../ui/Button";
 
 import { PlaceHolderImages } from "../../lib/placeholder-images";
+import type { AnchorHTMLAttributes, ClassAttributes, ImgHTMLAttributes } from "react";
+import type { JSX } from "react/jsx-runtime";
 
 // --- Placeholder components to avoid errors ---
-const Image = (props) => <img {...props} />;
-const Link = (props) => <a {...props}></a>;
+const Image = (props: JSX.IntrinsicAttributes & ClassAttributes<HTMLImageElement> & ImgHTMLAttributes<HTMLImageElement>) => <img {...props} />;
+const Link = (props: JSX.IntrinsicAttributes & ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement>) => <a {...props}></a>;
 // ---------------------------------------------
 
 export default function Hero() {

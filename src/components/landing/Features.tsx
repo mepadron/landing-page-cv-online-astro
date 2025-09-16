@@ -1,8 +1,10 @@
+import type { ClassAttributes, ImgHTMLAttributes } from "react";
+import type { JSX } from "react/jsx-runtime";
 import { PlaceHolderImages } from "../../lib/placeholder-images";
 import { CheckCircle2 } from "lucide-react";
 
 // --- Placeholder for Next.js Image component ---
-const Image = (props) => <img {...props} />;
+const Image = (props: JSX.IntrinsicAttributes & ClassAttributes<HTMLImageElement> & ImgHTMLAttributes<HTMLImageElement>) => <img {...props} />;
 // ---------------------------------------------
 
 const atsImage = PlaceHolderImages.find((img) => img.id === "feature-ats");
