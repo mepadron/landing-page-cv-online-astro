@@ -22,7 +22,7 @@ const benefits = [
   {
     icon: <RefreshCw className="h-8 w-8 text-primary" />,
     title: "Actualización Fácil",
-    description: "Modifica y actualiza tu información en cualquier momento con solo unos clics.",
+    description: "Modifica y actualiza tu información de acuerdo a tu plan.",
   },
   {
     icon: <Globe2 className="h-8 w-8 text-primary" />,
@@ -31,13 +31,13 @@ const benefits = [
   },
   {
     icon: <Target className="h-8 w-8 text-primary" />,
-    title: "Optimización ATS",
-    description: "Aumenta tus posibilidades superando los sistemas de seguimiento de candidatos (ATS).",
+    title: "Optimización",
+    description: "Aumenta tus posibilidades con el mejor SEO en tu CV.",
   },
   {
     icon: <ShieldCheck className="h-8 w-8 text-primary" />,
     title: "Control Total",
-    description: "Tú decides quién ve tu CV y qué información compartes, con total privacidad.",
+    description: "Tú decides quién y de acuerdo a tu plan, que vas a mostrar en tu CV.",
   },
 ];
 
@@ -47,7 +47,7 @@ export default function Benefits() {
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Un CV que Trabaja para Ti
+            Un CV online, una Ventana al Mundo
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Descubre las ventajas de tener un currículum vitae dinámico, profesional y siempre a tu alcance.

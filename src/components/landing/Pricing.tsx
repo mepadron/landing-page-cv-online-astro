@@ -1,9 +1,11 @@
 import { Check } from "lucide-react";
 import { Button } from "../ui/Button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "../ui/card";
+import type { ClassAttributes, AnchorHTMLAttributes } from "react";
+import type { JSX } from "react/jsx-runtime";
 
 // --- Placeholder for Next.js Link component ---
-const Link = (props) => <a {...props}></a>;
+const Link = (props: JSX.IntrinsicAttributes & ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement>) => <a {...props}></a>;
 // --------------------------------------------
 
 const plans = [

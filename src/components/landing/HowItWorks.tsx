@@ -10,14 +10,14 @@ const steps = [
   },
   {
     icon: <FileText className="h-10 w-10 text-primary" />,
-    title: "Completa tus Datos",
-    description: "Rellena tu información de forma intuitiva y recibe consejos de nuestra IA para potenciar tu perfil.",
+    title: "Envia tus Datos",
+    description: "De acuerdo a tu platilla envia tu información en formato txt.",
     href: "#",
   },
   {
     icon: <Share2 className="h-10 w-10 text-primary" />,
-    title: "Publica y Comparte",
-    description: "Obtén una URL personalizada para tu CV y compártela con el mundo. ¡Así de fácil!",
+    title: "Se publicará y Comparte",
+    description: "Te daremos la URL personalizada para tu CV y compártela con el mundo. ¡Así de fácil!",
     href: "#",
   },
 ];
@@ -31,7 +31,7 @@ export default function HowItWorks() {
             Tu CV Profesional en 3 Simples Pasos
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Crear un currículum impactante nunca fue tan sencillo y rápido.
+            Ten un currículum impactante nunca fue tan sencillo y rápido.
           </p>
         </div>
         <div className="relative mt-16">

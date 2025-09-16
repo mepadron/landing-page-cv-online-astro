@@ -17,11 +17,11 @@ export default function DemoPlantillas() {
           ></div>
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="text-3xl font-bold tracking-tighter text-primary sm:text-4xl md:text-5xl">
-              Explora Nuestro Demo Interactivo
+              Explora Nuestro Demo
             </h2>
             <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
               Descubre cómo nuestras plantillas modernas de CV online pueden transformar tu presencia profesional. 
-              Diseños responsivos, optimizados para ATS y creados para destacar en el mercado laboral actual.
+              Diseños responsivos, optimizados, creados para destacar en el mercado laboral actual.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
@@ -30,7 +30,7 @@ export default function DemoPlantillas() {
                 className="h-14 px-10 text-lg bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg transition-transform hover:scale-105"
               >
                 <Link href="/templates" target="_blank" rel="noopener noreferrer">
-                  Ver Demo de Plantillas
+                  Ver Demo de Plantilla
                 </Link>
               </Button>
               <Button
