@@ -10,7 +10,7 @@ import { ThemeToggle } from "../ThemeToggle";
 const navLinks = [
   { href: "#benefits", label: "Beneficios" },
   { href: "#templates", label: "Plantillas" },
-  { href: "#features", label: "Funcionalidades" },
+  // { href: "#features", label: "Funcionalidades" },
   { href: "#pricing", label: "Precios" },
   { href: "#testimonials", label: "Testimonios" },
   { href: "#contact", label: "Contacto" },
@@ -80,7 +80,7 @@ export default function Header() {
                     <span className="font-bold">Perfil Pro</span>
                   </a>
                   <Button variant="ghost" size="icon" onClick={closeMobileMenu}>
-                     <X className="h-6 w-6" />
+                    <X className="h-6 w-6" />
                   </Button>
                 </div>
                 <nav className="flex flex-col items-start gap-6 py-8">
