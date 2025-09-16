@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Preloader from '../components/landing/Preloader.tsx';
+import Header from '../components/landing/Header.tsx';
+import TemplatesComponent from '../components/landing/Templates.tsx';
+import Footer from '../components/landing/Footer.tsx';
+---
+
+<Layout
+  title="Plantillas - Perfil Pro"
+  description="Explora nuestras plantillas modernas y profesionales para crear tu CV online."
+>
+  <Preloader client:visible />
+  <div id="main-content" class="flex min-h-dvh flex-col bg-background animate-fade-in">
+    <Header client:load />
+    <main class="flex-1">
+      <TemplatesComponent client:load />
+    </main>
+    <Footer />
+  </div>
+</Layout>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const preloader = document.querySelector('#preloader-container');
+    const mainContent = document.getElementById('main-content');
+
+    if (preloader instanceof HTMLElement && mainContent instanceof HTMLElement) {
+      setTimeout(() => {
+        preloader.style.opacity = '0';
+        preloader.addEventListener('transitionend', () => {
+          preloader.style.display = 'none';
+        });
+        mainContent.style.opacity = '1';
+      }, 1500);
+    }
+  });
+</script>
