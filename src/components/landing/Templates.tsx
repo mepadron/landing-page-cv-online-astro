@@ -38,7 +38,7 @@ export default function Templates() {
             className="w-full"
           >
             <CarouselContent>
-              {templates.map((template) => (
+              {templates.slice(-3).map((template) => (
                 <CarouselItem key={template.id} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
                     <Card className="overflow-hidden p-4 shadow-lg transition-transform hover:scale-105">

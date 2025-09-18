@@ -27,19 +27,19 @@
     {
       "id": "template-full-1",
       "description": "Full CV template 1 preview",
-      "imageUrl": "https://picsum.photos/seed/template-full-1/600/840",
+      "imageUrl": "../public/plan_1.png",
       "imageHint": "cv professional"
     },
     {
       "id": "template-full-2",
       "description": "Full CV template 2 preview",
-      "imageUrl": "https://picsum.photos/seed/template-full-2/600/840",
+      "imageUrl": "../public/plan_3.png",
       "imageHint": "cv creative"
     },
     {
       "id": "template-full-3",
       "description": "Full CV template 3 preview",
-      "imageUrl": "https://picsum.photos/seed/template-full-3/600/840",
+      "imageUrl": "../public/plan_2.png",
       "imageHint": "cv modern"
     },
     {
