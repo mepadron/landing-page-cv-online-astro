@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="flex justify-center">
           {heroImage && (
             <div className="relative w-[300px] h-[400px] sm:w-[400px] sm:h-[533px] lg:w-[450px] lg:h-[600px] group">
-              <div className="absolute -inset-2.5 bg-gradient-to-br from-primary/50 to-accent/50 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-500"></div>
+              <div className="absolute h-[470px] lg:h-[680px] -inset-2.5 bg-gradient-to-br from-primary/50 to-accent/50 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-500"></div>
               <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
