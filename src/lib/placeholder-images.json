@@ -3,7 +3,7 @@
     {
       "id": "hero-cv",
       "description": "Modern CV preview for hero section",
-      "imageUrl": "https://picsum.photos/seed/hero-cv/600/800",
+      "imageUrl": "../public/plan_3.png",
       "imageHint": "cv resume"
     },
     {

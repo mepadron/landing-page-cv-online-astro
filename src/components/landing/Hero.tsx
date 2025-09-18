@@ -28,7 +28,7 @@ export default function Hero() {
             reclutadores y a todos los que buscan talento.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transition-transform hover:scale-105">
+            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-2xl transition-transform hover:scale-105">
               <Link href="#templates">Ver Ejemplos</Link>
             </Button>
             {/* <Button asChild size="lg" variant="ghost" className="transition-transform hover:scale-105">
@@ -46,7 +46,7 @@ export default function Hero() {
                 width={450}
                 height={600}
                 data-ai-hint={heroImage.imageHint}
-                className="relative rounded-xl border-4 border-card/50 shadow-2xl"
+                className="relative rounded-xl border-4 border-card/50 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
               />
             </div>
           )}
