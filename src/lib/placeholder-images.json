@@ -3,7 +3,7 @@
     {
       "id": "hero-cv",
       "description": "Modern CV preview for hero section",
-      "imageUrl": "../public/plan_3.png",
+      "imageUrl": "/plan_3.png",
       "imageHint": "cv resume"
     },
     {
@@ -27,19 +27,19 @@
     {
       "id": "template-full-1",
       "description": "Full CV template 1 preview",
-      "imageUrl": "../public/plan_1.png",
+      "imageUrl": "/plan_1.png",
       "imageHint": "cv professional"
     },
     {
       "id": "template-full-2",
       "description": "Full CV template 2 preview",
-      "imageUrl": "../public/plan_3.png",
+      "imageUrl": "/plan_3.png",
       "imageHint": "cv creative"
     },
     {
       "id": "template-full-3",
       "description": "Full CV template 3 preview",
-      "imageUrl": "../public/plan_2.png",
+      "imageUrl": "/plan_2.png",
       "imageHint": "cv modern"
     },
     {
